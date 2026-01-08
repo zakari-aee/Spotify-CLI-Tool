@@ -1,35 +1,34 @@
-🎵 Spotify CLI Tool
+<!-- Project Header -->
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=38&pause=1000&color=1DB954&center=true&vCenter=true&width=900&lines=Spotify+CLI+Tool;Python+%7C+Spotify+Web+API" alt="Typing intro" />
+</p>
 
-A simple Python command-line tool for searching Spotify tracks and retrieving track, album, and playlist information using the Spotify Web API.
+<p align="center">
+  <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
+  <img alt="Spotify API" src="https://img.shields.io/badge/Spotify_API-1DB954?style=for-the-badge&logo=spotify&logoColor=white">
+  <img alt="CLI" src="https://img.shields.io/badge/CLI-000000?style=for-the-badge&logo=gnu-bash&logoColor=white">
+</p>
 
-Features
+---
 
-Search tracks by name
+## 🎵 About
 
-Use Spotify URLs (track / album / playlist)
+A **Python command-line tool** that uses the **Spotify Web API** to search tracks, extract data from Spotify URLs, analyze audio features, and export results to files.
 
-Get track, album, and playlist details
+---
 
-Fetch audio features
+## ✨ Features
 
-Export results to text files
+- 🔍 Search tracks by name  
+- 🔗 Handle Spotify URLs (track / album / playlist)  
+- 🎶 Track, album & playlist details  
+- 📊 Audio features (tempo, energy, danceability)  
+- 💾 Export to `.txt` files  
 
-Requirements
+---
 
-Python 3
+## ▶️ Run
 
-Spotify Developer account
-
-requests
-
+```bash
 pip install requests
-
-Setup
-
-Create a Spotify app and add your credentials:
-
-CLIENT_ID = "YOUR_CLIENT_ID"
-CLIENT_SECRET = "YOUR_CLIENT_SECRET"
-
-Run
 python spotify_cli.py
